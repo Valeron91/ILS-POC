@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans, sans-serif;
+  background: whitesmoke;
+}
+
+.retailer {
+  text-align: left;
+}
+
+.retailer {
+  height: 100px;
+  width: calc(80% - 40px);
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+  background: white;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  border: none;
+  font-size: 36px;
+}
+
+.retailer img {
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.title {
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.info-store {
+
+}
+
+.stores {
+  display: inline-block;
+  width: calc(5 0% - 40px);
+  float: left;
+  background: white;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  padding: 30px;
+  margin: 10px;
+}
+
+.retailers {
+  display: inline-block;
+  width: 40%;
+  float: left;
+
+}
+
