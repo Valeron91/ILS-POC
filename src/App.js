@@ -1,5 +1,5 @@
 import React from 'react';
-import RetailerList from './RetailerList';
+import RetailerList from './Retailers/RetailerList';
 
 export default class App extends React.Component {
 

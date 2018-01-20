@@ -20,7 +20,8 @@ body {
   background: white;
   box-shadow: 1px 1px 1px 1px #ccc;
   border: none;
-  font-size: 36px;
+  font-size: 34px;
+  font-family: serif;
 }
 
 .retailer img {
@@ -39,7 +40,7 @@ body {
 
 .stores {
   display: inline-block;
-  width: calc(5 0% - 40px);
+  width: calc(50% - 40px);
   float: left;
   background: white;
   box-shadow: 1px 1px 1px 1px #ccc;

@@ -1,5 +1,5 @@
 import * as React from "react";
-import StoreList from "./StoresList";
+import StoreList from "./Stores/StoresList";
 import RetailerItem from "./RetailerItem";
 
 
