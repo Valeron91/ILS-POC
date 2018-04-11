@@ -1,7 +1,7 @@
 import * as React from "react";
 import StoreList from "./Stores/StoresList";
 import RetailerItem from "./RetailerItem";
-
+import CloseButton from "./Button/CloseButton";
 
 export default class RetailerList extends React.Component {
     constructor(props) {
@@ -33,7 +33,7 @@ export default class RetailerList extends React.Component {
     closeList() {
         this.setState({
             retailer: null
-        })
+        });
     }
 
     render() {
@@ -51,7 +51,7 @@ export default class RetailerList extends React.Component {
                 {
                     this.state.retailer &&
                     <div className="stores">
-                        <button onClick={() => this.closeList()}>Close List</button>
+                        <CloseButton onClick={() => this.closeList()} title="Close List" />
                         <StoreList retailer={this.state.retailer}/>
                     </div>
                 }

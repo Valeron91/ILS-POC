@@ -4,18 +4,18 @@ export default class Store extends React.Component {
     render() {
         return (
             <div className="info-store">
-                <h2>City: {this.props.store.city}</h2>
+                <h2>City: <span>{this.props.store.city}</span></h2>
                 {
                     this.props.store.opening_hours_text &&
-                    <h4>Opening Hours: {this.props.store.opening_hours_text}</h4>
+                    <h5>Opening Hours: <span>{this.props.store.opening_hours_text}</span></h5>
                 }
 
                 {
                     this.props.store.phone &&
-                    <span>{this.props.store.phone}</span>
+                    <h5>Telephone: <span>{this.props.store.phone}</span></h5>
 
                 }
-                <h5>Address: {this.props.store.address} - {this.props.store.zipcode}</h5>
+                <h5>Address: <span>{this.props.store.address}</span> - <span>{this.props.store.zipcode}</span></h5>
                 <hr/>
             </div>
         );

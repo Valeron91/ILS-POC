@@ -20,8 +20,6 @@ body {
   background: white;
   box-shadow: 1px 1px 1px 1px #ccc;
   border: none;
-  font-size: 34px;
-  font-family: serif;
 }
 
 .retailer img {
@@ -34,8 +32,15 @@ body {
   color: whitesmoke;
 }
 
-.info-store {
+.close-button {
+  font-weight: bold !important;
+  float: right;
+}
 
+.info-store span {
+  font-family: serif;
+  color: darkred;
+  font-weight: bold;
 }
 
 .stores {
